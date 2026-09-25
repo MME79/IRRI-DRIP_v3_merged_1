@@ -1,0 +1,26 @@
+# IRRI-DRIP runtime dependencies.
+# Ranges instead of exact pins on purpose: Streamlit Community Cloud has been
+# intermittently provisioning apps on very new Python builds regardless of the
+# "Advanced settings" choice (reported on the Streamlit forum). An exact pin
+# with no prebuilt wheel for that interpreter forces pip to compile from
+# source, which is slow and can leave the app hanging at "Spinning up manager
+# process" with no error text. Ranges let the resolver pick whatever
+# compatible wheel exists for the interpreter actually used.
+streamlit>=1.62,<2
+pandas>=2.2,<3
+openpyxl>=3.1
+
+# numpy is not imported directly anywhere in this app - it only comes in as
+# pandas' own dependency, so it is deliberately NOT pinned here. Pinning it
+# separately (as a previous requirements.txt did) can block pandas from
+# pulling in whichever numpy build actually has a wheel for the interpreter.
+
+# Charts: the same library and version OpenIrri pins, so the two programs
+# draw with one engine.
+plotly>=5.24,<6
+
+# Field layout on a map. folium draws with OpenStreetMap tiles and needs NO
+# account and NO API key. Every page except the map steps works without these;
+# those steps degrade to an explanatory message rather than crashing the app.
+folium>=0.17
+streamlit-folium>=0.23

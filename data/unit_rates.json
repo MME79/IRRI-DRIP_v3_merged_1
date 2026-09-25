@@ -1,0 +1,30 @@
+{
+  "_note": "PLACEHOLDER unit rates in EGP and component lives in years. They exist so the bill of quantities can be demonstrated end to end. They are NOT quotations and NOT market survey figures: replace every one with a current supplier price before the table is used for budgeting or tendering. Pipe and emitter prices come from data/pipes.json and data/emitters.json, which carry the same caveat.",
+  "rates": {
+    "start_connector_each": 3.0,
+    "end_closure_each": 2.0,
+    "subunit_valve_per_mm_dn": 45.0,
+    "pressure_regulator_per_mm_dn": 35.0,
+    "air_valve_each": 1200.0,
+    "flushing_valve_each": 300.0,
+    "filtration_base": 15000.0,
+    "filtration_per_m3h": 900.0,
+    "fertigation_unit": 18000.0,
+    "meter_and_gauges": 6000.0,
+    "pump_per_kw": 9000.0,
+    "trenching_per_m": 35.0,
+    "installation_per_ha": 8000.0,
+    "fittings_pct_of_pipe": 8.0,
+    "waste_pct_dripline": 3.0,
+    "waste_pct_pipe": 2.0
+  },
+  "lives_years": {
+    "Dripline and emitters": 5,
+    "Manifolds": 15,
+    "Mainline and submains": 20,
+    "Valves and fittings": 10,
+    "Head control": 10,
+    "Pump set": 10,
+    "Civil works and installation": 20
+  }
+}

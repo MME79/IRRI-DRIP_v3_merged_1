@@ -1,0 +1,28 @@
+{
+  "_note": "INDICATIVE catalogue for design exploration. Values are generic type-representative figures, NOT manufacturer specifications. Replace k, x, CV, passage and price with the supplier's published data before issuing any design. Add entries freely: the file is plain JSON.",
+  "_fields": {
+    "type": "inline | online | tape | micro-sprinkler",
+    "q_nominal_lph": "nominal discharge at the nominal head, L/h",
+    "h_nominal_m": "nominal operating head, m",
+    "k": "coefficient in q = k * H^x",
+    "x": "emitter exponent; ~0.5 non-compensating, 0-0.15 pressure compensating",
+    "cv": "manufacturer's coefficient of variation (ASABE EP405.1)",
+    "passage_mm": "smallest flow-passage dimension, drives filtration grade",
+    "le_m": "equivalent length added per emitter for the barb local loss, m",
+    "pc": "true if pressure compensating"
+  },
+  "emitters": [
+    {"name": "Inline non-PC 2.0 L/h", "type": "inline", "q_nominal_lph": 2.0, "h_nominal_m": 10.0, "k": 0.632, "x": 0.50, "cv": 0.05, "passage_mm": 0.70, "le_m": 0.12, "pc": false, "price_egp": 0.9},
+    {"name": "Inline non-PC 4.0 L/h", "type": "inline", "q_nominal_lph": 4.0, "h_nominal_m": 10.0, "k": 1.265, "x": 0.50, "cv": 0.05, "passage_mm": 0.90, "le_m": 0.15, "pc": false, "price_egp": 1.0},
+    {"name": "Inline PC 2.0 L/h", "type": "inline", "q_nominal_lph": 2.0, "h_nominal_m": 15.0, "k": 1.867, "x": 0.03, "cv": 0.04, "passage_mm": 0.60, "le_m": 0.18, "pc": true, "price_egp": 2.2},
+    {"name": "Inline PC 4.0 L/h", "type": "inline", "q_nominal_lph": 4.0, "h_nominal_m": 15.0, "k": 3.734, "x": 0.03, "cv": 0.04, "passage_mm": 0.80, "le_m": 0.20, "pc": true, "price_egp": 2.5},
+    {"name": "Inline PC 8.0 L/h", "type": "inline", "q_nominal_lph": 8.0, "h_nominal_m": 15.0, "k": 7.468, "x": 0.03, "cv": 0.05, "passage_mm": 1.00, "le_m": 0.22, "pc": true, "price_egp": 3.0},
+    {"name": "Online button 4.0 L/h", "type": "online", "q_nominal_lph": 4.0, "h_nominal_m": 10.0, "k": 1.265, "x": 0.50, "cv": 0.07, "passage_mm": 0.90, "le_m": 0.10, "pc": false, "price_egp": 1.4},
+    {"name": "Online button 8.0 L/h", "type": "online", "q_nominal_lph": 8.0, "h_nominal_m": 10.0, "k": 2.530, "x": 0.50, "cv": 0.07, "passage_mm": 1.10, "le_m": 0.10, "pc": false, "price_egp": 1.6},
+    {"name": "Online PC 8.0 L/h", "type": "online", "q_nominal_lph": 8.0, "h_nominal_m": 15.0, "k": 7.468, "x": 0.03, "cv": 0.05, "passage_mm": 0.90, "le_m": 0.12, "pc": true, "price_egp": 3.4},
+    {"name": "Drip tape 1.6 L/h @ 0.30 m", "type": "tape", "q_nominal_lph": 1.6, "h_nominal_m": 8.0, "k": 0.566, "x": 0.50, "cv": 0.08, "passage_mm": 0.55, "le_m": 0.04, "pc": false, "price_egp": 0.5},
+    {"name": "Drip tape 1.0 L/h @ 0.20 m", "type": "tape", "q_nominal_lph": 1.0, "h_nominal_m": 8.0, "k": 0.354, "x": 0.50, "cv": 0.09, "passage_mm": 0.50, "le_m": 0.03, "pc": false, "price_egp": 0.4},
+    {"name": "Micro-sprinkler 40 L/h", "type": "micro-sprinkler", "q_nominal_lph": 40.0, "h_nominal_m": 20.0, "k": 8.944, "x": 0.50, "cv": 0.06, "passage_mm": 1.40, "le_m": 0.25, "pc": false, "price_egp": 12.0},
+    {"name": "Micro-sprinkler 70 L/h", "type": "micro-sprinkler", "q_nominal_lph": 70.0, "h_nominal_m": 20.0, "k": 15.652, "x": 0.50, "cv": 0.06, "passage_mm": 1.60, "le_m": 0.25, "pc": false, "price_egp": 14.0}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "_note": "Kc values are indicative mid-season figures of the kind tabulated in FAO-56 Table 12. They MUST be checked against FAO-56 itself, and preferably replaced with locally measured coefficients, before use in a design that will be built. Where WMRI has station measurements for a crop, those take precedence over any table.",
+  "_fields": {
+    "kc_ini": "initial stage crop coefficient",
+    "kc_mid": "mid-season crop coefficient",
+    "kc_end": "late-season crop coefficient",
+    "root_depth_m": "typical maximum effective rooting depth under drip",
+    "depletion_p": "allowable depletion fraction at ETc ~5 mm/d",
+    "ece_threshold_ds_m": "soil salinity threshold ECe at which yield decline begins, dS/m",
+    "ground_cover": "typical mature ground-cover fraction, used for the Kr reduction",
+    "ece_max_ds_m": "soil salinity ECe at which yield falls to ZERO (the maximum ECe), dS/m - FAO-29 (Ayers & Westcot 1985) Table 4, 0 % yield-potential column; citrus takes the orange entry. null where Table 4 gives no value (olive, banana, mango): the program then uses FAO-29 eq. (9) on the threshold"
+  },
+  "crops": [
+    {"name": "Tomato (open field)",  "kc_ini": 0.60, "kc_mid": 1.15, "kc_end": 0.80, "root_depth_m": 0.60, "depletion_p": 0.40, "ece_threshold_ds_m": 2.5, "ece_max_ds_m": 13, "ground_cover": 0.75},
+    {"name": "Potato",              "kc_ini": 0.50, "kc_mid": 1.15, "kc_end": 0.75, "root_depth_m": 0.45, "depletion_p": 0.35, "ece_threshold_ds_m": 1.7, "ece_max_ds_m": 10, "ground_cover": 0.75},
+    {"name": "Cucumber",            "kc_ini": 0.60, "kc_mid": 1.00, "kc_end": 0.75, "root_depth_m": 0.50, "depletion_p": 0.50, "ece_threshold_ds_m": 2.5, "ece_max_ds_m": 10, "ground_cover": 0.75},
+    {"name": "Sweet pepper",        "kc_ini": 0.60, "kc_mid": 1.05, "kc_end": 0.90, "root_depth_m": 0.50, "depletion_p": 0.30, "ece_threshold_ds_m": 1.5, "ece_max_ds_m": 8.6, "ground_cover": 0.70},
+    {"name": "Onion (dry)",         "kc_ini": 0.70, "kc_mid": 1.05, "kc_end": 0.75, "root_depth_m": 0.35, "depletion_p": 0.30, "ece_threshold_ds_m": 1.2, "ece_max_ds_m": 7.4, "ground_cover": 0.70},
+    {"name": "Maize (grain)",       "kc_ini": 0.30, "kc_mid": 1.20, "kc_end": 0.50, "root_depth_m": 0.80, "depletion_p": 0.55, "ece_threshold_ds_m": 1.7, "ece_max_ds_m": 10, "ground_cover": 0.85},
+    {"name": "Wheat",               "kc_ini": 0.30, "kc_mid": 1.15, "kc_end": 0.35, "root_depth_m": 0.60, "depletion_p": 0.55, "ece_threshold_ds_m": 6.0, "ece_max_ds_m": 20, "ground_cover": 0.85},
+    {"name": "Cotton",              "kc_ini": 0.35, "kc_mid": 1.18, "kc_end": 0.60, "root_depth_m": 0.90, "depletion_p": 0.65, "ece_threshold_ds_m": 7.7, "ece_max_ds_m": 27, "ground_cover": 0.80},
+    {"name": "Sugar beet",          "kc_ini": 0.35, "kc_mid": 1.20, "kc_end": 0.70, "root_depth_m": 0.70, "depletion_p": 0.55, "ece_threshold_ds_m": 7.0, "ece_max_ds_m": 24, "ground_cover": 0.85},
+    {"name": "Alfalfa",             "kc_ini": 0.40, "kc_mid": 1.20, "kc_end": 1.15, "root_depth_m": 1.00, "depletion_p": 0.55, "ece_threshold_ds_m": 2.0, "ece_max_ds_m": 16, "ground_cover": 0.90},
+    {"name": "Table grape",         "kc_ini": 0.30, "kc_mid": 0.85, "kc_end": 0.45, "root_depth_m": 1.00, "depletion_p": 0.35, "ece_threshold_ds_m": 1.5, "ece_max_ds_m": 12, "ground_cover": 0.50},
+    {"name": "Citrus (with cover)", "kc_ini": 0.70, "kc_mid": 0.65, "kc_end": 0.70, "root_depth_m": 1.10, "depletion_p": 0.50, "ece_threshold_ds_m": 1.7, "ece_max_ds_m": 8.0, "ground_cover": 0.50},
+    {"name": "Olive",               "kc_ini": 0.65, "kc_mid": 0.70, "kc_end": 0.70, "root_depth_m": 1.20, "depletion_p": 0.65, "ece_threshold_ds_m": 2.7, "ece_max_ds_m": null, "ground_cover": 0.40},
+    {"name": "Date palm",           "kc_ini": 0.90, "kc_mid": 0.95, "kc_end": 0.95, "root_depth_m": 1.50, "depletion_p": 0.50, "ece_threshold_ds_m": 4.0, "ece_max_ds_m": 32, "ground_cover": 0.45},
+    {"name": "Banana",              "kc_ini": 0.50, "kc_mid": 1.10, "kc_end": 1.00, "root_depth_m": 0.60, "depletion_p": 0.35, "ece_threshold_ds_m": 1.5, "ece_max_ds_m": null, "ground_cover": 0.80},
+    {"name": "Mango",               "kc_ini": 0.45, "kc_mid": 0.85, "kc_end": 0.70, "root_depth_m": 1.20, "depletion_p": 0.45, "ece_threshold_ds_m": 1.8, "ece_max_ds_m": null, "ground_cover": 0.55}
+  ],
+  "soils": [
+    {"name": "Sand",            "fc_mm_per_m": 100, "wp_mm_per_m": 40,  "wetted_diameter_ref_m": 0.60},
+    {"name": "Loamy sand",      "fc_mm_per_m": 140, "wp_mm_per_m": 60,  "wetted_diameter_ref_m": 0.80},
+    {"name": "Sandy loam",      "fc_mm_per_m": 180, "wp_mm_per_m": 80,  "wetted_diameter_ref_m": 1.00},
+    {"name": "Loam",            "fc_mm_per_m": 220, "wp_mm_per_m": 100, "wetted_diameter_ref_m": 1.20},
+    {"name": "Silty clay loam", "fc_mm_per_m": 280, "wp_mm_per_m": 150, "wetted_diameter_ref_m": 1.50},
+    {"name": "Clay",            "fc_mm_per_m": 320, "wp_mm_per_m": 190, "wetted_diameter_ref_m": 1.70}
+  ],
+  "_soil_note": "Field capacity and wilting point are indicative textural averages, and the reference wetted diameter is for an emitter of about 4 L/h running one hour. Both vary widely with structure, compaction and organic matter. Measure where the decision matters."
+}

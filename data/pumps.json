@@ -1,0 +1,390 @@
+{
+ "_note": "INDICATIVE generic type curves, NOT products. Each entry is a shape H = H0 - (H0 - Hbep)(Q/Qbep)^2 with H0 = 1.25 Hbep and a parabolic efficiency curve peaking at eta_bep. They span the duty range so the matching can be demonstrated; a pump is bought from the manufacturer's published curve, which the Custom option on the Pump Selection page takes directly. The efficiency values are placeholders that rise with size in the usual way; they are not measured.",
+ "pumps": [
+  {
+   "name": "Generic end-suction 6 m3/h @ 20 m",
+   "q_bep_m3h": 6,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.61
+  },
+  {
+   "name": "Generic end-suction 6 m3/h @ 32 m",
+   "q_bep_m3h": 6,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.6
+  },
+  {
+   "name": "Generic end-suction 6 m3/h @ 45 m",
+   "q_bep_m3h": 6,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.6
+  },
+  {
+   "name": "Generic end-suction 6 m3/h @ 60 m",
+   "q_bep_m3h": 6,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.59
+  },
+  {
+   "name": "Generic end-suction 6 m3/h @ 80 m",
+   "q_bep_m3h": 6,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.58
+  },
+  {
+   "name": "Generic end-suction 10 m3/h @ 20 m",
+   "q_bep_m3h": 10,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.64
+  },
+  {
+   "name": "Generic end-suction 10 m3/h @ 32 m",
+   "q_bep_m3h": 10,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.64
+  },
+  {
+   "name": "Generic end-suction 10 m3/h @ 45 m",
+   "q_bep_m3h": 10,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.63
+  },
+  {
+   "name": "Generic end-suction 10 m3/h @ 60 m",
+   "q_bep_m3h": 10,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.62
+  },
+  {
+   "name": "Generic end-suction 10 m3/h @ 80 m",
+   "q_bep_m3h": 10,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.61
+  },
+  {
+   "name": "Generic end-suction 15 m3/h @ 20 m",
+   "q_bep_m3h": 15,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.67
+  },
+  {
+   "name": "Generic end-suction 15 m3/h @ 32 m",
+   "q_bep_m3h": 15,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.67
+  },
+  {
+   "name": "Generic end-suction 15 m3/h @ 45 m",
+   "q_bep_m3h": 15,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.66
+  },
+  {
+   "name": "Generic end-suction 15 m3/h @ 60 m",
+   "q_bep_m3h": 15,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.65
+  },
+  {
+   "name": "Generic end-suction 15 m3/h @ 80 m",
+   "q_bep_m3h": 15,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.64
+  },
+  {
+   "name": "Generic end-suction 25 m3/h @ 20 m",
+   "q_bep_m3h": 25,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.71
+  },
+  {
+   "name": "Generic end-suction 25 m3/h @ 32 m",
+   "q_bep_m3h": 25,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.7
+  },
+  {
+   "name": "Generic end-suction 25 m3/h @ 45 m",
+   "q_bep_m3h": 25,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.69
+  },
+  {
+   "name": "Generic end-suction 25 m3/h @ 60 m",
+   "q_bep_m3h": 25,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.69
+  },
+  {
+   "name": "Generic end-suction 25 m3/h @ 80 m",
+   "q_bep_m3h": 25,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.68
+  },
+  {
+   "name": "Generic end-suction 40 m3/h @ 20 m",
+   "q_bep_m3h": 40,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.74
+  },
+  {
+   "name": "Generic end-suction 40 m3/h @ 32 m",
+   "q_bep_m3h": 40,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.73
+  },
+  {
+   "name": "Generic end-suction 40 m3/h @ 45 m",
+   "q_bep_m3h": 40,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.72
+  },
+  {
+   "name": "Generic end-suction 40 m3/h @ 60 m",
+   "q_bep_m3h": 40,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.72
+  },
+  {
+   "name": "Generic end-suction 40 m3/h @ 80 m",
+   "q_bep_m3h": 40,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.71
+  },
+  {
+   "name": "Generic end-suction 60 m3/h @ 20 m",
+   "q_bep_m3h": 60,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.76
+  },
+  {
+   "name": "Generic end-suction 60 m3/h @ 32 m",
+   "q_bep_m3h": 60,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.76
+  },
+  {
+   "name": "Generic end-suction 60 m3/h @ 45 m",
+   "q_bep_m3h": 60,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.75
+  },
+  {
+   "name": "Generic end-suction 60 m3/h @ 60 m",
+   "q_bep_m3h": 60,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.74
+  },
+  {
+   "name": "Generic end-suction 60 m3/h @ 80 m",
+   "q_bep_m3h": 60,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.73
+  },
+  {
+   "name": "Generic end-suction 90 m3/h @ 20 m",
+   "q_bep_m3h": 90,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.79
+  },
+  {
+   "name": "Generic end-suction 90 m3/h @ 32 m",
+   "q_bep_m3h": 90,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.78
+  },
+  {
+   "name": "Generic end-suction 90 m3/h @ 45 m",
+   "q_bep_m3h": 90,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.78
+  },
+  {
+   "name": "Generic end-suction 90 m3/h @ 60 m",
+   "q_bep_m3h": 90,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.77
+  },
+  {
+   "name": "Generic end-suction 90 m3/h @ 80 m",
+   "q_bep_m3h": 90,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.76
+  },
+  {
+   "name": "Generic end-suction 130 m3/h @ 20 m",
+   "q_bep_m3h": 130,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 130 m3/h @ 32 m",
+   "q_bep_m3h": 130,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.81
+  },
+  {
+   "name": "Generic end-suction 130 m3/h @ 45 m",
+   "q_bep_m3h": 130,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.8
+  },
+  {
+   "name": "Generic end-suction 130 m3/h @ 60 m",
+   "q_bep_m3h": 130,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.8
+  },
+  {
+   "name": "Generic end-suction 130 m3/h @ 80 m",
+   "q_bep_m3h": 130,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.79
+  },
+  {
+   "name": "Generic end-suction 180 m3/h @ 20 m",
+   "q_bep_m3h": 180,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 180 m3/h @ 32 m",
+   "q_bep_m3h": 180,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 180 m3/h @ 45 m",
+   "q_bep_m3h": 180,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 180 m3/h @ 60 m",
+   "q_bep_m3h": 180,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 180 m3/h @ 80 m",
+   "q_bep_m3h": 180,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.81
+  },
+  {
+   "name": "Generic end-suction 250 m3/h @ 20 m",
+   "q_bep_m3h": 250,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 250 m3/h @ 32 m",
+   "q_bep_m3h": 250,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 250 m3/h @ 45 m",
+   "q_bep_m3h": 250,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 250 m3/h @ 60 m",
+   "q_bep_m3h": 250,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 250 m3/h @ 80 m",
+   "q_bep_m3h": 250,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 350 m3/h @ 20 m",
+   "q_bep_m3h": 350,
+   "h_bep_m": 20,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 350 m3/h @ 32 m",
+   "q_bep_m3h": 350,
+   "h_bep_m": 32,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 350 m3/h @ 45 m",
+   "q_bep_m3h": 350,
+   "h_bep_m": 45,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 350 m3/h @ 60 m",
+   "q_bep_m3h": 350,
+   "h_bep_m": 60,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  },
+  {
+   "name": "Generic end-suction 350 m3/h @ 80 m",
+   "q_bep_m3h": 350,
+   "h_bep_m": 80,
+   "shutoff_ratio": 1.25,
+   "eta_bep": 0.82
+  }
+ ]
+}

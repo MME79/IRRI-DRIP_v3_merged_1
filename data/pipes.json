@@ -1,0 +1,33 @@
+{
+  "_note": "INDICATIVE pipe catalogue. Outside diameters follow common ISO/EN metric series; wall thicknesses and internal diameters are typical values and prices are placeholders. VERIFY against the supplier's dimension table before issuing a design — internal diameter enters head loss to the fifth power, so an assumed wall thickness is not a harmless approximation.",
+  "_fields": {
+    "nominal_mm": "outside diameter, mm",
+    "internal_mm": "internal (bore) diameter, mm",
+    "material": "PE | PVC",
+    "pn_bar": "nominal pressure rating, bar",
+    "price_egp_per_m": "indicative supply price, EGP per metre",
+    "role": "lateral | manifold | mainline"
+  },
+  "laterals": [
+    {"nominal_mm": 16, "internal_mm": 13.6, "material": "PE", "pn_bar": 4, "price_egp_per_m": 4.5, "role": "lateral"},
+    {"nominal_mm": 16, "internal_mm": 14.2, "material": "PE", "pn_bar": 2.5, "price_egp_per_m": 4.0, "role": "lateral"},
+    {"nominal_mm": 20, "internal_mm": 17.0, "material": "PE", "pn_bar": 4, "price_egp_per_m": 6.5, "role": "lateral"},
+    {"nominal_mm": 25, "internal_mm": 21.2, "material": "PE", "pn_bar": 4, "price_egp_per_m": 9.5, "role": "lateral"},
+    {"nominal_mm": 32, "internal_mm": 28.0, "material": "PE", "pn_bar": 4, "price_egp_per_m": 14.0, "role": "lateral"}
+  ],
+  "pipes": [
+    {"nominal_mm": 32,  "internal_mm": 28.0,  "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 16.0,  "role": "manifold"},
+    {"nominal_mm": 40,  "internal_mm": 35.2,  "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 24.0,  "role": "manifold"},
+    {"nominal_mm": 50,  "internal_mm": 44.0,  "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 36.0,  "role": "manifold"},
+    {"nominal_mm": 63,  "internal_mm": 55.4,  "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 56.0,  "role": "manifold"},
+    {"nominal_mm": 75,  "internal_mm": 66.0,  "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 79.0,  "role": "manifold"},
+    {"nominal_mm": 90,  "internal_mm": 79.2,  "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 113.0, "role": "mainline"},
+    {"nominal_mm": 110, "internal_mm": 96.8,  "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 168.0, "role": "mainline"},
+    {"nominal_mm": 125, "internal_mm": 110.2, "material": "PE",  "pn_bar": 6,  "price_egp_per_m": 217.0, "role": "mainline"},
+    {"nominal_mm": 110, "internal_mm": 103.6, "material": "PVC", "pn_bar": 6,  "price_egp_per_m": 105.0, "role": "mainline"},
+    {"nominal_mm": 160, "internal_mm": 150.6, "material": "PVC", "pn_bar": 6,  "price_egp_per_m": 218.0, "role": "mainline"},
+    {"nominal_mm": 200, "internal_mm": 188.2, "material": "PVC", "pn_bar": 6,  "price_egp_per_m": 340.0, "role": "mainline"},
+    {"nominal_mm": 250, "internal_mm": 235.4, "material": "PVC", "pn_bar": 6,  "price_egp_per_m": 530.0, "role": "mainline"},
+    {"nominal_mm": 315, "internal_mm": 296.6, "material": "PVC", "pn_bar": 6,  "price_egp_per_m": 840.0, "role": "mainline"}
+  ]
+}
