@@ -1,0 +1,32 @@
+IRRI-DRIP — Drip Irrigation System Design
+Copyright (c) 2026 Dr. Mohamed Embaby. All rights reserved.
+
+IRRI-DRIP, including its source code, engineering engine, user interface,
+design reports, drawings, data files, validation material and the Arabic
+user guide, is the intellectual property of Dr. Mohamed Embaby.
+
+No part of this software or its documentation may be copied, reproduced,
+redistributed, published, modified, sold, sub-licensed or used to create
+derivative works without the prior written permission of the author.
+
+Author and owner : Dr. Mohamed Embaby
+Affiliation      : Water Management Research Institute (WMRI),
+                   National Water Research Center, Ministry of Water
+                   Resources and Irrigation, Egypt
+
+Third-party component: the interface stylesheet in config/theme.py is taken
+from OpenIrri under the MIT licence (see LICENSE_OpenIrri); that notice
+applies to that file only.
+
+------------------------------------------------------------------------
+
+برنامج IRRI-DRIP لتصميم شبكات الري بالتنقيط
+© 2026 د. محمد إمبابي — جميع حقوق الملكية الفكرية محفوظة.
+
+البرنامج بكل مكوناته (الشفرة المصدرية، ومحرك الحسابات الهندسية، والواجهة،
+والتقارير والرسومات الناتجة، وملفات البيانات، ومواد التحقق، ودليل المستخدم
+باللغة العربية) ملكية فكرية خاصة بالدكتور محمد إمبابي.
+
+لا يجوز نسخ أي جزء من البرنامج أو من وثائقه أو إعادة توزيعه أو نشره أو
+تعديله أو بيعه أو ترخيصه للغير أو اشتقاق أعمال منه إلا بإذن كتابي مسبق
+من المؤلف.
