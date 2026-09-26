@@ -11,7 +11,6 @@ echo %DATE% %TIME% >> "%LOG%"
 echo ================================================
 echo   IRRI DRIP v3.0.0
 echo   Drip Irrigation Network Design
-echo   (C) 2026 Dr. Mohamed Embaby. All rights reserved.
 echo   Water Management Research Institute
 echo ================================================
 echo.

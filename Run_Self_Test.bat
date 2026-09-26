@@ -1,5 +1,5 @@
 @echo off
-title IRRI-DRIP - Self-test  (C) 2026 Dr. Mohamed Embaby
+title IRRI-DRIP - Self-test
 cd /d "%~dp0"
 set "VENVPY=%~dp0.venv\Scripts\python.exe"
 set "LOG=%~dp0test_log.txt"
@@ -8,7 +8,6 @@ set PYTHONIOENCODING=utf-8
 
 echo ================================================
 echo   IRRI DRIP v3.0.0 - Self-test on this computer
-echo   (C) 2026 Dr. Mohamed Embaby. All rights reserved.
 echo ================================================
 echo.
 if not exist "%VENVPY%" goto novenv

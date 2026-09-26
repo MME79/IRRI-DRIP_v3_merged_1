@@ -1,10 +1,6 @@
-# Copyright (c) 2026 Dr. Mohamed Embaby. All rights reserved.
-# IRRI-DRIP is the intellectual property of Dr. Mohamed Embaby (see COPYRIGHT.txt).
 """
 IRRI-DRIP — drip irrigation system design (Streamlit).
-Copyright (c) 2026 Dr. Mohamed Embaby. All rights reserved.
-Developed by Dr. Mohamed Embaby, Water Management Research Institute (WMRI),
-National Water Research Center.
+Water Management Research Institute (WMRI), National Water Research Center.
 
 The drip counterpart to OpenIrri / PY-IRRI (sprinkler system design). From
 version 2.0 the two programs share one interface: the same sidebar, the same
@@ -25,7 +21,7 @@ import streamlit as st
 from modules.common import inject_css
 from modules import theme
 
-from engine import APP_VERSION, APP_AUTHOR, COPYRIGHT, OWNERSHIP  # noqa: E402  (single source)
+from engine import APP_VERSION  # noqa: E402  (single source of the version)
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 # ---------------------------------------------------------------------------
@@ -139,13 +135,11 @@ def _sidebar():
     st.sidebar.markdown(
         """
         <hr/>
-        <div style="font-size:0.7rem;color:#6c757d;text-align:center;line-height:1.5;">
-            <b style="color:#adb5bd;">{COPYRIGHT}</b><br/>
-            Developed by {APP_AUTHOR}<br/>
+        <div style="font-size:0.7rem;color:#6c757d;text-align:center;">
             Water Management Research Institute · NWRC<br/>
             Drip counterpart to OpenIrri (PY-IRRI)
         </div>
-        """.format(COPYRIGHT=COPYRIGHT, APP_AUTHOR=APP_AUTHOR),
+        """,
         unsafe_allow_html=True,
     )
 
@@ -153,9 +147,7 @@ def _sidebar():
 def main() -> None:
     st.set_page_config(page_title="IRRI-DRIP — Drip System Design",
                        page_icon="💧", layout="wide",
-                       initial_sidebar_state="expanded",
-                       menu_items={"About": f"**IRRI-DRIP {APP_VERSION}** — drip irrigation "
-                                            f"system design.\n\n{COPYRIGHT}\n\n{OWNERSHIP}"})
+                       initial_sidebar_state="expanded")
     init_state()
     # CSS first: a navigation click aborts the run inside the sidebar, and a
     # run that injected no stylesheet renders unstyled.
